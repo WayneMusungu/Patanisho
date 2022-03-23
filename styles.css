@@ -1,0 +1,49 @@
+:root{
+    --color-dark: hsl(254, 13%, 19%);
+    --color-white: hsl(252, 30%, 100%);
+    --color-primary: hsl(252, 75%, 60%);
+    --color-black: hsl(252, 30%, 10%);
+    --color-red: rgb(241, 67, 67);
+    --color-gray: hsl(252, 15%, 65%);
+    --color-light: hsl(252, 30%, 90%);
+    --color-success: hsl(120, 95%, 65%);
+    --color-secondary: hsl(252, 100%, 90%);
+    --border-radius: 2rem;
+    --card-border: 1rem;
+    --btn-padding: 1rem, 2rem;
+    --search-padding: 5rem, 3rem;
+    --card-padding: 1rem;
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+}
+
+nav{
+    width: 100%;
+    background-color: var(--color-white);
+    padding: 0.7rem 0;
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ nav .search-bar{
+     background-color: var(--color-light);
+     border-radius: var(--border-radius);
+     padding: var(--search-padding);
+ }
+ nav .search-bar input[type="search"]{
+     background: transparent;
+     width: 30vw;
+     margin-left: 1rem;
+     font-size:medium;
+     color:dimgrey;
+ }
+ nav .create{
+     display:flex;
+     align-items:center;
+     gap:2rem;
+ }
