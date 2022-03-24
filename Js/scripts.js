@@ -239,7 +239,11 @@ closeBtn.addEventListener('click', () => {
     document.querySelector('.left').style.display = 'none';
 })
 
-
+let love = document.getElementById("love1");
+love.addEventListener("click", (e)=>{
+    e.preventDefault()
+    love.style. backgroundColor ="red"
+})
 
 
 // THE END
