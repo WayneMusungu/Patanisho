@@ -49,6 +49,13 @@ body {
   overflow-x: hidden;
 }
 
+/* buttons */
+#decline, #decline2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #77E9A9;
+}
+
 /* GENERAL STYLES */
 .container {
   width: 80%;
@@ -323,22 +330,22 @@ main .container .left .profile {
 }
 
 .middle .stories .story:nth-child(1) {
-  background: url("/images/Main\ profile.jpg") no-repeat center center/cover;
+  background: url("https://raw.githubusercontent.com/WayneMusungu/Patanisho/master/images/Main%20profile.jpg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(2) {
-  background: url("/images/Mercy\ Okolla.jpeg") no-repeat center center/cover;
+  background: url("https://raw.githubusercontent.com/WayneMusungu/Patanisho/master/images/Mercy%20Okolla.jpeg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(3) {
-  background: url("/images/Trevor\ lemaiyan.jpeg") no-repeat center center/cover;
+  background: url("https://raw.githubusercontent.com/WayneMusungu/Patanisho/master/images/Trevor%20lemaiyan.jpeg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(4) {
-  background: url("/images/OL.jpg") no-repeat center center/cover;
+  background: url("https://raw.githubusercontent.com/WayneMusungu/Patanisho/master/images/OL.jpg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(5) {
-  background: url("/images/Lupita.jpeg") no-repeat center center/cover;
+  background: url("https://raw.githubusercontent.com/WayneMusungu/Patanisho/master/images/Lupita.jpeg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(6) {
-  background: url("/images/Felix\ Wahome.jpeg") no-repeat center center/cover;
+  background: url("https://raw.githubusercontent.com/WayneMusungu/Patanisho/master/images/Felix%20Wahome.jpeg") no-repeat center center/cover;
 }
 
 .middle .story .profile-photo {

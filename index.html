@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/styles.css">
     <script src="https://kit.fontawesome.com/bbb7424702.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <title>Patanisho</title>
 </head>
@@ -23,7 +25,7 @@
                 <input type="search" placeholder="Search for creators, inspirations, and projects">
             </div>
             <div class="create">
-                <label class="btn btn-primary" for="create-post">Create</label>
+                <label class="btn btn-primary" for="create-post">Add Story</label>
                 <div class="profile-photo">
                     <img src="./images/Main profile.jpg">
                 </div>
@@ -171,7 +173,7 @@
                         <div class="profile-photo">
                             <img src="./images/OL.jpg">
                         </div>
-                        <p class="name">Oliver</p>
+                        <p class="name">Gibson meli</p>
                     </div>
                     <div class="story">
                         <div class="profile-photo">
@@ -489,7 +491,7 @@
                     <div class="category">
                         <h6 class="active">Primary</h6>
                         <h6>General</h6>
-                        <h6 class="message-requests">Requests(7)</h6>
+                        <h6 class="message-requests">Requests(2)</h6>
                     </div>
                     <!------------ MESSAGE -------------->
                     <!----- MESSAGE ----->
@@ -570,11 +572,12 @@
                             <div>
                                 <h5>Elizabeth Njeri</h5>
                                 <p class="text-muted">2 mutual friends</p>
+                                <p id="decline"></p>
                             </div>
                         </div>
                         <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
+                            <button class="btn btn-primary" id="btn1">Accept</button>
+                            <button class="btn" id="btn2">Decline</button>
                         </div>
                     </div>
                     <!----- REQUEST 2----->
@@ -586,11 +589,12 @@
                             <div>
                                 <h5>Chris Mulwa</h5>
                                 <p class="text-muted">100 mutual friends</p>
+                                <p id="decline2"></p>
                             </div>
                         </div>
                         <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
+                            <button class="btn btn-primary" id="btn3">Accept</button>
+                            <button class="btn" id="btn4">Decline</button>
                         </div>
                     </div>
                 </div>
@@ -979,7 +983,6 @@
             <!-- </div> -->
 
         <!-- </div> -->
-
 
 
 
