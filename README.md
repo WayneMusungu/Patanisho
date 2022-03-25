@@ -8,7 +8,7 @@
 - Wayne Musungu
 
 # Project Description
--Patanisho is a social media website that facilitates sharing of thoughts, ideas and information. This is a website that people use to keep in touch. Patanisho also offers an interactive environment to link people with like minded interests and helps business people reach out to their target audience.
+Patanisho is a social media website that facilitates sharing of thoughts, ideas and information. This is a website that people use to keep in touch. Patanisho also offers an interactive environment to link people with like minded interests and helps business people reach out to their target audience.
 
 
 ## Technologies Used
