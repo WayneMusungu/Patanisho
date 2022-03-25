@@ -304,6 +304,16 @@ button4.addEventListener("click", (e) =>{
 
     document.getElementById("decline2").innerHTML = `Request removed`
 })
+
+
+let button5 = document.getElementById("btn5");
+
+button5.addEventListener("click", (e) =>{
+    e.preventDefault()
+    
+
+    document.getElementById("post1").innerHTML = `Uploading your post......`
+})
 // jquery
 
 $(document).ready(function(){
@@ -317,6 +327,13 @@ $(document).ready(function(){
         $("#btn4").hide();
 
     })
+
+    $("#btn6").click(function(event){
+        $("#pop").show();
+        // $("#btn4").hide();
+
+    })
+
 
 
     
