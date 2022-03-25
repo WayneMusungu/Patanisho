@@ -25,10 +25,11 @@
                 <input type="search" placeholder="Search for creators, inspirations, and projects">
             </div>
             <div class="create">
-                <label class="btn btn-primary" for="create-post">Add Story</label>
+                <label class="btn btn-primary" for="create-post" id="btn6">Add Story</label>
                 <div class="profile-photo">
                     <img src="./images/Main profile.jpg">
                 </div>
+                
                 <!-- menu button to show sidebar -->
                 <button id="menu-btn"><i class="uil uil-bars"></i></button>
             </div>
@@ -193,9 +194,14 @@
                     <div class="profile-photo">
                         <img src="./images/Main profile.jpg">
                     </div>
-                    <input type="text" placeholder="What's up Eva?" id="create-post">
-                    <input type="submit" value="Post" class="btn btn-primary">
+                    <input type="text" placeholder="What's up Eva?" id="create-post" required>
+
+                    <input type="submit" value="Post" class="btn btn-primary" id="btn5">
+                    
                 </form>
+                <div>
+                    <p id="post1"></p>
+                </div>
 
                 <!------------------- FEEDS --------------------->
                 <div class="feeds">
@@ -478,6 +484,21 @@
 
             <!--======================== RIGHT ==========================-->
             <div class="right">
+                <div id="pop">
+                   <div class="music">
+                    <ul>
+                        <li><i class="fa-solid fa-music fa-3x" style="color: #6E50E7;"></i></li>
+                       
+                    </ul>
+                   </div>
+                   <div class="camera">
+                       <ul>
+                           <li><i class="fa-solid fa-camera fa-3x" style="color: #6E50E7;"></i></li>
+                       </ul>
+                   </div>
+                  >
+                </div>
+                
                 <div class="messages">
                     <div class="heading">
                         <h4>Messages</h4><i class="uil uil-edit"></i>
